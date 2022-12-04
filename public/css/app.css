@@ -1,0 +1,531 @@
+
+    .botton{
+        background: red;
+        background-color: brown;
+    }
+    .espacio
+    {
+        height: 2rem;
+    }
+    .borde{
+       border: 1px solid black;
+       background: rgb(78, 245, 245);
+    }
+    .borde2{
+       border: 1px solid gray;
+    }
+    .wrapper {
+      
+    }
+    
+    .wrapper a {
+      display: inline-block;
+      text-decoration: none;
+      padding: 15px;
+      background-color: #fff;
+      border-radius: 3px;
+      text-transform: uppercase;
+      color: #585858;
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .modal {
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(77, 77, 77, .7);
+      transition: all .4s;
+    }
+    
+    .modal:target {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+    .modal__content {
+      border-radius: 4px;
+      position: relative;
+      width: 1000px;
+      max-width: 90%;
+      background: #fff;
+      padding: 1em 2em;
+    }
+    body {
+  background: white;
+}
+   
+    .modal__close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color: #585858;
+      text-decoration: none;
+    }
+    
+    button {
+  margin: 30px;
+}
+.custom-btn {
+  width: 170px;
+  height: 40px;
+  margin-bottom: 1.3rem;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+/* 1 */
+.btn-1 {
+  background: #ff4081;
+  background: linear-gradient(0deg, #ff4081 0%,#ff4081 100%);
+  border: none;
+}
+.btn-1:hover {
+   background: #f82685;
+background: linear-gradient(0deg,#ff4081 0%, #e7227b 100%);
+}
+    
+body {
+    background: white;
+  }
+  #backG {
+    position: relative;
+    background: url("https://www.movint.es/wp-content/uploads/2020/07/26-ERGONOMIA-CONVENCIONAL-2-scaled-2194x1097.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    animation: animate 5s linear infinite;
+  }
+  #ufo {
+    position: absolute;
+    top: 0;
+    left: -120px;
+    width: auto;
+    animation: ufo 2s forwards;
+    height: 23%;
+  }
+  #ufo2 {
+    position: absolute;
+    top: 0;
+    right: -120px;
+    width: auto;
+    animation: ufo2 2s forwards;
+    height: 23%;
+  }
+  #txtBox {
+    width: auto;
+  }
+  #txtW {
+    position: absolute;
+    left: -22%;
+    
+    font-size: 150px;
+    font-family: 'Righteous', cursive;
+    color: #7FFFD4;
+    animation: txtW 3s ease forwards;
+    width: 100%;
+  }
+  #txtE0 {
+    position: absolute;
+    top: 820px;
+    left: 31%;
+    font-size: 150px;
+    font-family: 'Righteous', cursive;
+    animation: txtE0 3s ease-in-out forwards;
+    width: 100%;
+  }
+  #txtL {
+    position: absolute;
+    top: -500px;
+    left: 38%;
+    font-size: 150px;
+    font-family: 'Righteous', cursive;
+    color: #7FFFD4;
+    animation: txtL 3s forwards;
+    width: 100%;
+  }
+  #txtC {
+    position: absolute;
+    top: -820px;
+    left: 44%;
+    font-size: 150px;
+    font-family: 'Righteous', cursive;
+    animation: txtC 1.5s linear forwards;
+   animation-delay: 2s;
+    width: 100%;
+  }
+  #txtO {
+    position: absolute;
+    top: 0;
+    left: 51%;
+    font-size: 150px;
+    font-family: 'Righteous', cursive;
+    color: rgba(127,255,212,0.0);
+    animation: txtO 3s ease-out forwards;
+    width: 100%;
+  }
+  #txtM {
+    position: absolute;
+    top: 820px;
+    left: 60%;
+    font-size: 150px;
+    font-family: 'Righteous', cursive;
+    animation: txtM 3s forwards;
+    width: 100%;
+  }
+  #txtE1 {
+    position: absolute;
+    top: 0;
+    left: 150%;
+    font-size: 150px;
+    font-family: 'Righteous', cursive;
+    color: #7FFFD4;
+    animation: txtE1 3s forwards;
+    
+  }
+  
+  
+  @keyframes animate {
+    
+    from {
+     background-position: 0 0;
+      
+    }
+    to {
+     background-position: 100% 0;
+      
+    }
+  }
+  
+  @keyframes ufo {
+    from {
+     left: -120px;
+    }
+    to {
+     left: 150px
+    }
+  }
+  @keyframes ufo2 {
+    from {
+     right: -120px;
+    }
+    to {
+     right: 150px
+    }
+  }
+  
+  
+  
+  
+  @keyframes txtW {
+    from {
+     left: -22%;
+    }
+    to {
+     left: 22%;
+    }
+  }
+  @keyframes txtE0 {
+    from {
+     top: 820px;
+    }
+    to {
+     top: 0;
+    }
+  }
+  @keyframes txtL {
+     from {
+     top: -500px;
+    }
+    to {
+     top: 0;
+    }
+  }
+  @keyframes txtC {
+    0% {
+     top: -820px;
+    }
+    90%{
+      top: 40px;
+    }
+    100% {
+     top: 0;
+    }
+  }
+  @keyframes txtO {
+    from {
+     color: rgba(127,255,212,0.0);
+    }
+    to {
+     color: rgba(127,255,212,1);
+    }
+  }
+  @keyframes txtM {
+    from {
+     top: 820px;
+    }
+    to {
+     top: 0;
+    }
+  }
+  @keyframes txtE1 {
+    from {
+     left: 150%;
+    }
+    to {
+     left: 69%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #txtW,
+    #txtE0,
+    #txtL,
+    #txtC,
+    #txtO,
+    #txtM,
+    #txtE1 {
+      font-size: 50px;
+    }
+    
+  }  
+  
+  .btn-1 {
+    background: #ff4081;
+    background: linear-gradient(0deg, #ff4081 0%,#ff4081 100%);
+    border: none;
+  }
+  .btn-1:hover {
+     background: #f82685;
+  background: linear-gradient(0deg,#ff4081 0%, #e7227b 100%);
+  }
+      
+  .btn-login {
+    background: #f82685;
+  
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+  
+  .btn-google {
+    color: white !important;
+    background-color: #ea4335;
+  }
+  
+  .btn-facebook {
+    color: white !important;
+    background-color: #3b5998;
+  }
+.botton{
+    background: red;
+    background-color: brown;
+}
+.espacio
+{
+height: .2rem;
+}
+.ajustar
+{
+height: 4rem;
+}
+.borde{
+background: #ff4081;
+color: #fff;
+font-weight: bold;
+}
+.borde2{
+background: #f2f2f2;
+}
+
+.autocomplete {
+position: relative;
+display: inline-block;
+}
+
+
+
+
+.autocomplete-items {
+position: absolute;
+border: 1px solid #d4d4d4;
+border-bottom: none;
+border-top: none;
+z-index: 99;
+/*position the autocomplete items to be the same width as the container:*/
+top: 100%;
+left: 0;
+right: 0;
+}
+
+.autocomplete-items div {
+padding: 10px;
+cursor: pointer;
+background-color: #fff; 
+border-bottom: 1px solid #d4d4d4; 
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+background-color: #e9e9e9; 
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+background-color: DodgerBlue !important; 
+color: #ffffff; 
+}
+.botton{
+background: red;
+background-color: brown;
+}
+.espacio
+{
+height: 2rem;
+}
+
+
+
+body {
+background: white;
+}
+
+button {
+margin: 30px;
+}
+.custom-btn {
+width: 170px;
+height: 40px;
+margin-bottom: 1.3rem;
+color: #fff;
+border-radius: 5px;
+padding: 10px 25px;
+font-family: 'Lato', sans-serif;
+font-weight: 500;
+background: transparent;
+cursor: pointer;
+transition: all 0.3s ease;
+position: relative;
+display: inline-block;
+box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+7px 7px 20px 0px rgba(0,0,0,.1),
+4px 4px 5px 0px rgba(0,0,0,.1);
+outline: none;
+}
+
+/* 1 */
+.btn-1 {
+background: #ff4081;
+background: linear-gradient(0deg, #ff4081 0%,#ff4081 100%);
+border: none;
+}
+.btn-1:hover {
+background: #f82685;
+background: linear-gradient(0deg,#ff4081 0%, #e7227b 100%);
+}
+
+
+/* Estilos para el HEAD de la tabla */
+table.dataTable thead {background-color:#ff4081;color: azure;}
+
+/* Estilos para los botones de paginacion */
+.page-item.active .page-link {
+background-color:#ff4081 !important;
+color: azure !important;
+/* border: 1px solid black; */
+}
+.page-link {
+color: black !important;
+}
+.autocomplete {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  
+  
+  .autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+  
+  .autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff; 
+    border-bottom: 1px solid #d4d4d4; 
+  }
+  
+  /*when hovering an item:*/
+  .autocomplete-items div:hover {
+    background-color: #e9e9e9; 
+  }
+  
+  /*when navigating through the items using the arrow keys:*/
+  .autocomplete-active {
+    background-color: DodgerBlue !important; 
+    color: #ffffff; 
+  }
+    
+  .file-input__input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .file-input__label {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 12px;
+    background-color: #f297c0;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+  }
+  /*******/
+  
+  .btn-enviar{
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 45px;
+    background-color: coral;
+    border: none;
+    border-radius: 2px;
+  }
+  .btn-enviar:hover{
+    color: #333;
+  }  
